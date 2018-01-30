@@ -1,0 +1,57 @@
+html {
+  font-size: 15px;
+  font-family: , cursive;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  button{
+  margin: 2rem auto;
+  max-width:400px;
+  border:none;
+  color: white;
+  border-radius: .25rem;
+  font-size: 1.125rem;
+  padding: 20px 60px;
+  cursor:pointer
+
+  	}
+  p {
+    text-align: center;
+  }
+button {
+
+  display: block;
+  margin: 2rem auto;
+  max-width:400px;
+  border:none;
+  color: white;
+  border-radius: .25rem;
+  font-size: 1.125rem;
+  padding: 20px 60px;
+  cursor: pointer
+}
+.bouton {
+
+background:linear-gradient(135deg, #0EBCFF 0%,#0034E8 100%);
+
+}
+
+.bouton:hover{
+
+animation:pulsation_bouton .8s ease-out
+
+}
+
+@keyframes pulsation_bouton {
+
+from{
+box-shadow:0 0 0 -3px hsla(0,0%,100%,0),0 0 0 0 hsl(44,66%,57%)
+
+}
+
+to{
+
+box-shadow:0 0 0 10px hsla(0,0%,100%,0),0 0 0 13px hsla(0,0%,100%,0)}
+
+}
